@@ -46,9 +46,9 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-            I'm a Junior at Mumbai University, Majoring in Artificial Intelligence and Data Science. I'm exploring and mastering various domains of computer science and languages like C++, Java,HTML,CSS, PYTHON. I'm a keen learner and eager to communicate and network.
+            I am a Junior at Mumbai University, Majoring in Artificial Intelligence and Data Science. I am exploring and mastering various domains of computer science and languages like C++, Java,HTML,CSS, PYTHON. I am a keen learner and eager to communicate and network.
 
-I'm also a Photography and Consumer tech enthusiast and Physics Philosophy aficionado. When not working I spent time playing Chess.
+I am also a Photography and Consumer tech enthusiast and Physics Philosophy aficionado. When not working I spent time playing Chess.
             </p>
             <br />
             <p>
