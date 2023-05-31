@@ -18,6 +18,15 @@ const skills = [
   { skill: "Firebase" },
 ];
 
+const paragraphStyle = {
+  fontFamily: "Avenir Light, sans-serif",
+  margin: "10px 0",
+  fontSize: "18px",
+  fontWeight: "10",
+  color: "black",
+  lineHeight: "1.5",
+};
+
 const AboutSection = () => {
   return (
     <section id="about">
@@ -34,40 +43,32 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
-            <p>
-              Hi, my name is Abhishek and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer student
-              based in Mumbai,MH.
-            </p>
-            <br />
-            <p>
-              I am a Junior at Mumbai University, Majoring in Artificial Intelligence and Data Science. I am exploring and mastering various domains of computer science and languages like C++, Java,HTML,CSS, PYTHON. I am a keen learner and eager to communicate and network.
+            
+            <p style={paragraphStyle}>
+        Hello, I am Abhishek, a Computer Science student at Mumbai University,
+        Majoring in Artificial intelligence and Data Science. I'm passionate
+        about creating meaningful software solutions that solve real-world
+        problems and enhance user experiences. Collaboration is at the core of
+        my work, and I thoroughly enjoy working with fellow developers to tackle
+        challenging projects and transform ideas into reality.
+      </p>
+      <p style={paragraphStyle}>
+        My work primarily revolves around machine learning, android development,
+        and web development. I find delight in leveraging technology to innovate
+        and push boundaries in these areas.
+      </p>
+      <p style={paragraphStyle}>
+        I am excited to explore new opportunities and see where they take me.
+      </p>
+      <p style={paragraphStyle}>
+        When not working, you can find me dabbling with photography, immersing
+        myself in captivating books, experimenting with cooking, and engaging in
+        strategic battles on the chessboard.
+      </p>
 
-              I am also a Photography and Consumer tech enthusiast and Physics Philosophy aficionado. When not working I spent time playing Chess.
-            </p>
-            <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-blue-500">
-                never stop growing
-              </span>{" "}
-              and that what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
-            </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-3xl font-bold mb-6">Technologies I have worked with:</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => (
                 <span className="hover:scale-110 inline-block transition-transform" key={idx}>
