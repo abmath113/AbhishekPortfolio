@@ -46,7 +46,7 @@ const AboutSection = () => {
             
             <p style={paragraphStyle}>
         Hello, I am Abhishek, a Computer Science student at Mumbai University,
-        Majoring in Artificial intelligence and Data Science. I'm passionate
+        Majoring in Artificial intelligence and Data Science. I am passionate
         about creating meaningful software solutions that solve real-world
         problems and enhance user experiences. Collaboration is at the core of
         my work, and I thoroughly enjoy working with fellow developers to tackle
