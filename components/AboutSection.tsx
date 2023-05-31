@@ -1,4 +1,4 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 
 const skills = [
   { skill: "Java" },
@@ -19,20 +19,12 @@ const skills = [
 ];
 
 const paragraphStyle = {
-  "--font-family": "'Avenir Light', sans-serif",
-  "--font-weight": "10",
-  "--font-size": "18px",
-  "--color": "black",
-  "--line-height": "1.5",
-
-  // fontFamily: "Avenir Light, sans-serif",
-  // margin: "10px 0",
-  // fontSize: "18px",
-  // fontWeight: "10",
-  // color: "black",
-  // lineHeight: "1.5",
+  fontFamily: "'Avenir Light', Arial, sans-serif",
+  fontWeight: 300,
+  fontSize: "18px",
+  color: "#333",
+  lineHeight: 1.5,
 };
-
 const AboutSection = () => {
   return (
     <section id="about">
