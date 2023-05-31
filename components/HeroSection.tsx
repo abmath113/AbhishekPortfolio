@@ -20,9 +20,11 @@ const HeroSection = () => {
         </div>
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold bg mt-6 md:mt-0 md:text-6xl">Hi, I&#39;m{" "}
-          <span className="font-semibold animated-gradient text-8xl">
+        
+          <span className="font-semibold animated-gradient text-8xl hover:scale-110 inline-block transition-transform">
              Abhishek{" "}
             </span>
+            
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}

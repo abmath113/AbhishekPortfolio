@@ -3,22 +3,20 @@ import Image from "next/image"
 
 const skills = [
   { skill: "Java" },
-  { skill: "SQL" },
+  { skill: "Python" },
   { skill: "JavaScript" },
-  { skill: "Java" },
-  { skill: "Java" },
-  { skill: "Java" },
   { skill: "HTML" },
   { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
+  { skill: "SQL" },
   { skill: "React" },
-  { skill: "Next.js" },
+  { skill: "Next.Js" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
-  { skill: "GitHub" },
+  { skill: "Github" },
   { skill: "Jupyter Notebooks" },
+  { skill: "Android Studio" },
+  { skill: "Google Colab" },
+  { skill: "Firebase" },
 ]
 
 const AboutSection = () => {
@@ -74,12 +72,14 @@ I am also a Photography and Consumer tech enthusiast and Physics Philosophy afic
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
+                  <span className="hover:scale-110 inline-block transition-transform">
                   <p
                     key={idx}
                     className="bg-blue-200 px-4 py-2 mr-2 mt-2 text-blue-900 rounded-full font-semibold hover:bg-blue-400"
                   >
                     {item.skill}
                   </p>
+                  </span>
                 )
               })}
             </div>
