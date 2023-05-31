@@ -19,12 +19,18 @@ const skills = [
 ];
 
 const paragraphStyle = {
-  fontFamily: "Avenir Light, sans-serif",
-  margin: "10px 0",
-  fontSize: "18px",
-  fontWeight: "10",
-  color: "black",
-  lineHeight: "1.5",
+  "--font-family": "'Avenir Light', sans-serif",
+  "--font-weight": "10",
+  "--font-size": "18px",
+  "--color": "black",
+  "--line-height": "1.5",
+
+  // fontFamily: "Avenir Light, sans-serif",
+  // margin: "10px 0",
+  // fontSize: "18px",
+  // fontWeight: "10",
+  // color: "black",
+  // lineHeight: "1.5",
 };
 
 const AboutSection = () => {
