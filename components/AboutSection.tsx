@@ -42,7 +42,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             
-            <p className="text-center text-2xl font-thin mb-4 md:text-left">
+            <p className="text-center text-xl text-grey mb-4 md:text-left">
         Hello, I am Abhishek, a Computer Science student at Mumbai University,
         Majoring in Artificial intelligence and Data Science. I am passionate
         about creating meaningful software solutions that solve real-world
@@ -50,15 +50,15 @@ const AboutSection = () => {
         my work, and I thoroughly enjoy working with fellow developers to tackle
         challenging projects and transform ideas into reality.
       </p>
-      <p className="text-center text-2xl font-thin mb-4 md:text-left">
+      <p className="text-center text-xl font-family: times new roman  mb-4 md:text-left">
         My work primarily revolves around machine learning, android development,
         and web development. I find delight in leveraging technology to innovate
         and push boundaries in these areas.
       </p>
-      <p className="text-center text-2xl font-thin mb-4 md:text-left">
+      <p className="text-center text-xl font-family: times new roman  mb-4 md:text-left">
         I am excited to explore new opportunities and see where they take me.
       </p>
-      <p className="text-center text-2xl font-thin mb-4 md:text-left">
+      <p className="text-center text-xl font-family: times new roman  mb-4 md:text-left">
         When not working, you can find me dabbling with photography📸, immersing
         myself in captivating books📖, experimenting with cooking🍝, and engaging in
         strategic battles on the chessboard♘.
