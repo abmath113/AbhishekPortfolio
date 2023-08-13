@@ -11,14 +11,14 @@ const projects = [
       "An Android app, to translate indian sign language to text in real time , and also provide signs for common",
     image: "/thankfulthoughts.png",
     github: "https://github.com/abmath113/Anuvadak",
-    link: "https://thankfulthoughts.io/",
+    link: "https://github.com/abmath113/Anuvadak",
   },
   {
     name: "Used Books Marketplace App",
     description: "Created an Android app for college students where they can sell and buy used textbooks",
     image: "/booksapp.jpg",
     github: "https://github.com/abmath113/Android-Marketplace-App",
-    link: "https://platoio.com/register",
+    link: "https://github.com/abmath113/Android-Marketplace-App",
   },
   // {
   //   name: "Kator Family Photos",
