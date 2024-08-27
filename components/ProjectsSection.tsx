@@ -16,6 +16,28 @@ const projects = [
     github: "https://github.com/abmath113/Anuvadak",
     link: "https://github.com/abmath113/Anuvadak",
   },
+
+  {
+    name: "TexTruth",
+    points: [
+      "AI-powered solution to differentiate between AI-generated and human-authored",
+      "Assessing the quality and sophistication of AI-generated content. Thus trying to advance content verification tools for enhanced trust and reliability in an AI-driven information landscape.",
+    ],
+    image: "/Flowchart.png",
+    github: "https://github.com/abmath113/TexTruth",
+    link: "https://github.com/abmath113/TexTruth",
+  },
+  {
+    name: "FashionGAN",
+    points: [
+      "Generating Fashion Images using GANs",
+      "This project leverages GAN architecture to generate 28x28 fashion images. The FashionMNIST dataset, consisting of grayscale images of various fashion items, serves as the training corpus.",
+      "The whole Generative adversial network was trained locally therefore images are lower resolution but results can extrapolated.",
+    ],
+    image: "/FashionGAN.jpg",
+    github: "https://github.com/abmath113/FashionGAN",
+    link: "https://github.com/abmath113/FashionGAN",
+  },
   {
     name: "Used Books Marketplace App",
     points: [
@@ -26,6 +48,7 @@ const projects = [
     github: "https://github.com/abmath113/Android-Marketplace-App",
     link: "https://github.com/abmath113/Android-Marketplace-App",
   },
+  
 ];
 
 const ProjectsSection = () => {

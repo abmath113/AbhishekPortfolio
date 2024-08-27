@@ -33,10 +33,16 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-blue-600">
-              Software Engineering Student{" "}
+              Full Stack Developer{" "}
             </span>
-            based in Mumbai, MH. Working towards creating software that makes
-            life easier and more meaningful.
+            and{" "}
+            <span className="font-semibold text-blue-600">
+              Machine Learning enthusiast{" "}
+            </span>
+            based in Mumbai, IN.
+            <br />
+            Working towards creating software that makes life easier and more
+            meaningful.
           </p>
           <Link
             to="projects"
@@ -87,7 +93,7 @@ const HeroSection = () => {
           />
         </a>
         <a
-          href="https://www.instagram.com/thisisabhishake/"
+          href="https://www.instagram.com/shotbyabhishake/"
           rel="noreferrer"
           target="_blank"
         >
