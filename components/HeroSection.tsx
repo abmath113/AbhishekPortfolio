@@ -41,8 +41,6 @@ const HeroSection = () => {
             </span>
             based in Mumbai, IN.
             <br />
-            Working towards creating software that makes life easier and more
-            meaningful.
           </p>
           <Link
             to="projects"
@@ -55,11 +53,14 @@ const HeroSection = () => {
           >
             Projects
           </Link>
+
           <a
-            href="https://www.canva.com/design/DAFbknTRfWM/AfHirqtSeABXcBTalPbX2g/edit?utm_content=DAFbknTRfWM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            href="/Resume_Sep_24.pdf"
             className="text-neutral-100 font-semibold px-6 py-3 bg-blue-600 rounded shadow hover:bg-blue-800 ml-4"
+            target="_blank" // Optional: opens the resume in a new tab
+            rel="noreferrer"
           >
-            View Resume
+            Resume
           </a>
         </div>
       </div>
