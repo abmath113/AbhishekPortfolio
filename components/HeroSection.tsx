@@ -55,7 +55,7 @@ const HeroSection = () => {
           </Link>
 
           <a
-            href="/Resume_Sep_24.pdf"
+            href="/Resume_sde_Jan_25.pdf"
             className="text-neutral-100 font-semibold px-6 py-3 bg-blue-600 rounded shadow hover:bg-blue-800 ml-4"
             target="_blank" // Optional: opens the resume in a new tab
             rel="noreferrer"
