@@ -17,9 +17,9 @@ export default function RootLayout({
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
-          <Analytics />
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
