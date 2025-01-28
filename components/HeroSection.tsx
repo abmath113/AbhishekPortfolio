@@ -1,7 +1,7 @@
 "use client"; // this is a client component
 import React from "react";
 import Image from "next/image";
-import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-scroll";
 import { HiArrowDown } from "react-icons/hi";
 import {
   AiOutlineGithub,
@@ -42,7 +42,7 @@ const HeroSection = () => {
             based in Mumbai, IN.
             <br />
           </p>
-          <ScrollLink
+          <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-blue-600 rounded shadow hover:bg-blue-800"
             activeClass="active"
@@ -52,7 +52,7 @@ const HeroSection = () => {
             duration={500}
           >
             Projects
-          </ScrollLink>
+          </Link>
 
           <a
             href="/Resume_sde_Jan_25.pdf"
@@ -105,7 +105,7 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
-        <ScrollLink
+        <Link
           to="about"
           activeClass="active"
           spy={true}
@@ -114,7 +114,7 @@ const HeroSection = () => {
           duration={500}
         >
           <HiArrowDown size={35} className="animate-bounce" />
-        </ScrollLink>
+        </Link>
       </div>
     </section>
   );
